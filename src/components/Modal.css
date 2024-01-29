@@ -1,0 +1,176 @@
+
+
+.modalBackground{
+    width:100vw;
+    height:100vh;
+    background-color: rgba(200,200,200);
+    position:fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+ .modalContainer{
+    width: 500px;
+    height: 500px;
+    border-radius: 12px;
+    background-color: aliceblue;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+
+.modalContainer{
+    display: inline-block;
+    
+    text-align: center;
+    margin-top: 5px;
+
+}
+
+.titleCloseBtn{
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    
+}
+
+.titleCloseBtn button{
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    color: #000;
+}
+
+.modalContainer .body{
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+
+}
+
+.modalContainer .footer{
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContainer .footer button{
+    width:150px;
+    height:45px;
+    margin: 10px;
+    border: none;
+    background-color: cornflowerblue;
+    color: aliceblue;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+#cancelBtn{
+    background-color: crimson;
+} 
+
+.close{
+    display: flex;
+    justify-content: end;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-right: 4%;
+    padding: 1%;
+}
+
+
+.title{
+    margin-bottom: 1%;
+    margin-bottom: 40px;
+}
+
+.title h1{
+  background-color: aliceblue;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    /* gap: 1rem;
+    justify-content: center;
+    align-items: center;
+     */
+}
+
+
+.input-group {
+    width: 90%;
+    padding-left: 1rem;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+  }
+
+  .input-group input{
+    border: none;
+    height: 2rem;
+    
+  }
+
+  label {
+    
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-right:100%;
+  }
+
+  input {
+    width: 100%;
+    margin-right: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  input[type="text"], input[type="password"] {
+    transition: border-color 0.3s ease-in-out;
+    
+  }
+
+  input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #3498db;
+  }
+
+  .footer{
+    margin-top: 2rem;
+  }
+
+.footer button:hover{
+    color: black;
+    background-color: aliceblue;
+}
+
+.footer2{
+  display: flex;
+  margin-top: 4%;
+}
+
+.footer2 button{
+  width: 20%;
+  font-size: 1.2rem;
+}
